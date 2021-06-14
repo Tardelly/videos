@@ -1,0 +1,30 @@
+html, body { height: 100%; padding: 0; margin: 0;}
+body {position:fixed; width: 100%; background: #DDD;}
+.div { width: 33.33%; height: 33.33%; float: left; text-align: center; position: relative; display: flex;
+  align-items: center; justify-content: center;}
+
+img{width: 50%;}
+
+#btn{font-size: 24px; width:50%; border-radius: 12px; border: 2px solid #4CAF50;
+  -webkit-transition-duration: 0.4s; /* Safari */ transition-duration: 0.4s; cursor: pointer; text-align: center !important;}
+
+#btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+#aguarde{margin-top: 5% !important; text-align: center !important; border: 2px solid black; padding: 80px; font-size: 16pt;}
+
+#form{margin-top: 5% !important; text-align: center !important;}
+
+#text-form, #form label, #btn_video p {font-weight: bold;}
+
+video{ width: 50% !important; height: 30% !important;}
+
+#btn_video{text-align: center !important;}
+
+#my_camera{width: 100% !important; height: 100% !important;}
+
+.container{margin-top: 4% !important;}
+
+#btn_video p{font-size: 20px;}
